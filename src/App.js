@@ -8,7 +8,8 @@ const App = () => {
     <div className="app">
       <BackgroundVideo />
       <div className="content">
-        <h1>Bienvenido a mi Aplicación</h1>
+        <h1>Portafolio Dev Angel Ayala</h1>
+        <p> En Progreso...</p>
         <h2>Projectos personales</h2>
         <div className="projects-section">
           <figure>
