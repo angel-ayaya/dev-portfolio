@@ -2,6 +2,7 @@
 import React from "react";
 import BackgroundVideo from "./Components/BackgroundVideo";
 import "./App.css";
+import { Link } from "react-router-dom";
 
 const App = () => {
   return (
@@ -13,14 +14,19 @@ const App = () => {
         <h2>Projectos personales</h2>
         <div className="projects-section">
           <figure>
-            <a href="/calculator">
+            <Link to="/calculator">
               <button>Calculator</button>
-            </a>
+            </Link>
           </figure>
           <figure>
-            <a href="/todo">
+            <Link to="/todo">
               <button>To-Do List</button>
-            </a>
+            </Link>
+          </figure>
+          <figure>
+            <Link to="/substract">
+              <button>Substract Layout</button>
+            </Link>
           </figure>
         </div>
       </div>
