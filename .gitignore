@@ -24,3 +24,5 @@ yarn-error.log*
 
 
 background_akali.mp4
+
+.env
