@@ -2,7 +2,7 @@ import './styles.css'
 
 const Substract = () => {
     return (
-        <div>
+        <div className='substract-container'>
             <h1>Substract</h1>
         </div>
     )
