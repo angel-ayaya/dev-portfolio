@@ -17,9 +17,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "cross-env REACT_APP_ROUTER_MODE=hash npm run build && echo ayalacode.tech > ./build/CNAME",
+    "predeploy": "npm run build && echo ayalacode.tech > ./build/CNAME",
     "deploy": "gh-pages -d build",
-    "start": "cross-env REACT_APP_ROUTER_MODE=browser react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
